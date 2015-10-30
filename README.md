@@ -1,2 +1,2 @@
 # dotfiles
-These are my dotfiles for some things
+These are my dotfiles for some things.
