@@ -1,3 +1,4 @@
 # dotfiles
 These are my dotfiles for some things.
-HOIHOJI
+
+Also just a place for me to mess with git.
