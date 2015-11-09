@@ -1,4 +1,8 @@
 # dotfiles
-These are my dotfiles for some things.
+Hello.
 
-Also just a place for me to mess with git.
+This is where I keep my dotfiles for linux things. So far all I have on here is:
+	-i3 config
+	-i3 bar config
+
+Peace.
