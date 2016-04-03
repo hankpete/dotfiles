@@ -30,7 +30,7 @@ set $color7  #cccccc
 set $color15 #ffffff
 
 # set font for everything unless bar has it set
-font pango:DejaVu Sans Mono 8
+font pango:DejaVu Sans Mono 10
 
 # wallpaper
 ##exec --no-startup-id feh --bg-scale /home/hpeter/Pictures/brown_wall.jpg
@@ -46,7 +46,7 @@ bar {
 	tray_output primary
 	#tray_padding 3 [px]
 
-	font pango:DejaVu Sans, Icons, 9
+	font pango:DejaVu Sans, Icons, 10
 
 	separator_symbol "||"
 
@@ -103,7 +103,7 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec dmenu_run
 
 # browser
-bindsym $mod+i exec firefox
+bindsym $mod+i exec /usr/local/firefox/firefox
 
 # change focus
 bindsym $mod+h focus left
@@ -229,7 +229,3 @@ mode "$mode_system" {
 bindsym $mod+Pause mode "$mode_system"
 
 ### execs
-# add network manager applet to task bar
-exec nm-applet
-exec set_primary
-exec xflux -z 94720

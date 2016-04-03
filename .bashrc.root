@@ -21,3 +21,6 @@ alias c='clear'
 
 #color
 PS1='\[\e[1;31m\][\u@\h \W]\$\[\e[0m\] '
+
+#debian alias updating
+alias housekeeping='apt update; apt upgrade; apt-get autoremove; apt-get autoclean; echo Done!'

@@ -24,6 +24,8 @@ if has('gui_running')
   map! <S-Insert> <MiddleMouse>
 endif
 
+set number 
+
 " colors
 filetype plugin on
 syntax on

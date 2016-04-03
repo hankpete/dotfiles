@@ -3,13 +3,14 @@
 
 !!!!!!URxvt stuff
 
-URxvt.font: xft:monospace:size=10
+URxvt.font: xft:monospace:size=11
 
 URxvt.scrollBar: false
 
 URxvt.letterspace: -1
 
 ! perl extensions
+URxvt.perl-lin: /usr/lib/urxvt/perl/
 URxvt.perl-ext-common: default,matcher,clipboard
 
 ! clickable urls
