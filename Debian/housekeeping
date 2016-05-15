@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "\n~~~apt update~~~\n\n"
+
+apt update
+
+echo "\n~~~apt upgrade~~~\n\n"
+
+apt upgrade
+
+echo "\n~~~aptitude install -f~~~\n\n"
+
+aptitude install -f
+
+echo "\n~~~aptitude clean~~~\n\n"
+
+aptitude clean
+
+echo "\n~~~aptitude autoclean~~~\n\n"
+
+aptitude autoclean
+
+echo "\n\nDone.\n"
