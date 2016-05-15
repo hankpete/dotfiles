@@ -1,23 +1,41 @@
 #!/bin/bash
 
-echo "\n~~~apt update~~~\n\n"
+echo
+echo "~~~apt update~~~"
+echo 
+echo
 
 apt update
 
-echo "\n~~~apt upgrade~~~\n\n"
+echo
+echo "~~~apt upgrade~~~"
+echo
+echo
 
 apt upgrade
 
-echo "\n~~~aptitude install -f~~~\n\n"
+echo
+echo "~~~aptitude -f install~~~"
+echo
+echo
 
-aptitude install -f
+aptitude -f install 
 
-echo "\n~~~aptitude clean~~~\n\n"
+echo
+echo "~~~aptitude clean~~~"
+echo
+echo
 
 aptitude clean
 
-echo "\n~~~aptitude autoclean~~~\n\n"
+echo
+echo "~~~aptitude autoclean~~~"
+echo
+echo
 
 aptitude autoclean
 
-echo "\n\nDone.\n"
+echo
+echo
+echo "Done."
+echo
