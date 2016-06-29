@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "creating necessary folders..."
+echo "Creating necessary folders..."
 
 mkdir /home/hpeter/.vim
 mkdir /home/hpeter/.vim/colors
