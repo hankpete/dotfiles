@@ -1,1 +1,7 @@
-#This is where my dotfiles are.
+#Dotfiles
+
+Hello. 
+
+These are my dotfiles for linux things. 
+
+Peace.
