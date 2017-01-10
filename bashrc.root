@@ -16,3 +16,21 @@ alias la='ls $LS_OPTIONS -A'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
+
+# Automate updates
+housekeeping() {
+	echo
+	echo "'apt update':"
+	echo
+	apt update
+	echo
+	echo "'apt upgrade':"
+	echo
+	apt upgrade
+	echo
+	echo "'apt autoremove':"
+	echo
+	apt autoremove
+	echo
+	echo "Done."
+}
